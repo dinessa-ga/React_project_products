@@ -21,6 +21,7 @@ function App() {
      {products && products.map((product)=>{
       return(
         <ProductCard 
+        key={product.id}
         title={product.title} 
         image={product.image}
         price={product.price}/>
