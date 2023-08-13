@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './ProductCardStyles.css';
 
 export const ProductCard = ({title, price, image}) => {
